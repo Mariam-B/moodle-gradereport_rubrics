@@ -45,6 +45,7 @@ $string['grade'] = 'Grade';
 $string['invalidcourseid'] = 'Invalid course ID';
 $string['nograde'] = '-';
 $string['notset'] = 'not set';
+$string['openteacherdashboard'] = 'Open Teacher Dashboard';
 $string['pluginname'] = 'Rubrics report';
 $string['pluginname_help'] = 'This report displays the Rubrics grading details per student. Tick or untick options to customise the HTML or downloadable results';
 $string['privacy:metadata'] = 'The Rubrics report only reports on data held elsewhere and does not store any personal data.';

@@ -87,6 +87,19 @@ if (!$csv) {
 
     // Display the form.
     $mform->display();
+    //create a new page for the dashboard, create a button that will allow access to the dashboard
+    //only display the button if the assignment has been selected already (need assignment info, before we can load the dashboard)
+    if ($activityid !=0) {
+      $dashboardurl = new moodle_url('/grade/report/rubrics/dashboard.php', [
+        'id' => $courseid,
+        'activityid' => $activityid
+    ]);  
+    $dashboardbutton = html_writer::link($dashboardurl, get_string('openteacherdashboard', 'gradereport_rubrics'), ['class' => 'btn btn-primary']);
+    
+    echo html_writer::div($dashboardbutton, 'mb-3');
+    } 
+    
+    
 
     grade_regrade_final_grades($courseid); // First make sure we have proper final grades.
 }
