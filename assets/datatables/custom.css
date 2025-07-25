@@ -1,0 +1,117 @@
+/*style the search container*/ 
+.dt-search {
+    float: left;
+    display:flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0.01rem;
+}
+
+
+div.dt-container .dt-search input{ /*the search bar itself*/
+  width: 100%;
+  padding: 1%;
+  margin-right: 2%;
+  border: 1px solid #ccc;
+  border-radius:10px;
+  font-size: 100%;
+}
+
+#dt-search-0 input::placeholder {  /*text in the search bar*/ 
+  color: #aaa; /* light grey */
+}
+.dt-button-down-arrow {
+    display: none !important;
+}
+
+.dt-button {
+  display: flex;
+  float: right;
+  align-items: center;
+  width: 100%;
+  object-fit: contain;
+  border: none !important;
+  background: white !important;
+  padding: 1%;
+  margin-bottom: 0.01rem;
+
+} 
+
+.dt-button.buttons-collection span img {
+    height: auto;
+    max-height: 20px;
+    width: auto;
+    vertical-align: middle;
+    margin-right: 0.3em;
+}
+
+
+.dashboard_stats {
+  display: flex;
+  flex-direction: row; /* vertical stacking */
+  float: none;
+  padding-bottom: 1em;
+}
+
+.chart_container{
+  display: flex;
+  width: 50%;
+  flex-direction: column; /* vertical stacking */
+  float: left;
+  padding-bottom: 1em;
+}
+.overall_specs_container {
+  display: flex;
+  width: 50%;
+  flex-direction: column; /* vertical stacking */
+  float: right;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.row {
+    display: flex;
+    width:80%;
+    background-color: #FDEBD0;
+    color: #D35400;
+    font-weight: 600;
+    padding: 1rem;
+    margin: 0.5%;
+    border-radius: 10px;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.btn-outline-primary {
+    background-color: #D35400;
+    color: #fff;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+}
+.btn-outline-primary:hover {
+    background-color: #A04000;
+}
+
+.dashboard-header {
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 1rem;
+}
+
+.dashboard-title {
+    font-size: 2rem;
+    color: #D35400;
+    margin-bottom: 0.5rem;
+}
+
+.dashboard-subinfo {
+    font-size: 1rem;
+    color: #555;
+}
+
+.dashboard-subtext {
+    margin: 0;
+    line-height: 1.4;
+}
+
+

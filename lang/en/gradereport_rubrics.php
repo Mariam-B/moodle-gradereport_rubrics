@@ -42,6 +42,7 @@ $string['feedback'] = 'Feedback';
 $string['filename'] = 'rubricreport_{$a}';
 $string['formheader'] = 'Data to include';
 $string['grade'] = 'Grade';
+$string['goback'] = 'Back';
 $string['invalidcourseid'] = 'Invalid course ID';
 $string['nograde'] = '-';
 $string['notset'] = 'not set';
@@ -58,3 +59,13 @@ $string['student'] = 'Student';
 $string['studentemail'] = 'Email';
 $string['studentid'] = 'ID Number';
 $string['summary'] = 'Summary';
+$string['viewdetails'] = 'View details';
+$string['savechanges'] = 'Save changes';
+$string['submittedfiles']    = 'Submitted files';
+$string['nosubmissionfiles']  = 'No submission files found.';
+$string['nosubmissionrecord'] = 'No submission record found.';
+$string['submittedby'] = "Submitted by";
+$string['rubricbreakdown'] = "Detail Overview";
+
+
+
